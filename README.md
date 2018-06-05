@@ -4,6 +4,7 @@
 
 ## Objective
 Show an understanding of the JavaScript concepts taught in Basecamp up to this point.
+OH I UNDERSTAND!!
 
 ## Directions
 Fork this repo, clone your fork and then complete the challenges in assessment.js.
@@ -20,7 +21,7 @@ When you have completed the challenges please:
  If you are trying to push your code and you receive the above error, please make sure you have forked and cloned the repository to your own GitHub account. If you are still having trouble, please review `Computer Basics` &gt; `Command Line & Git` &gt; `Mini Project`.
 
 ## Contributions
-If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch. 
 
 ## Copyright
 
