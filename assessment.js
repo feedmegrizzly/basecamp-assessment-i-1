@@ -22,7 +22,7 @@ var me = ("My name is " + myName + " and my favorite number is " + faveNum);
 
 // CODE HERE
 var trueFaveNum = 27;
-trueFaveNum !== faveNum;
+trueFaveNum == faveNum;
 
 
 // #6 Create a new variable called notHakeem. Using the previously
