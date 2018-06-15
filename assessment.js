@@ -16,13 +16,13 @@ var lovesCode = true;
 var me = ("My name is " + myName + " and my favorite number is " + faveNum);
 
 // #5 Using the previously created faveNum variable, 
-//create a new variable called 'trueFaveNum'. *trueFaveNum*
-// should equal true when comparing faveNum to your favorite number.v 
+// create a new variable called 'trueFaveNum'.
+//*trueFaveNum* should equal true when comparing faveNum to your favorite number.v 
 // HINT: Use a comparison operator
 
 // CODE HERE
 
-var trueFaveNum;
+var trueFaveNum = 27;
 if(faveNum === trueFaveNum) {
   trueFaveNum = true;
 }
@@ -34,7 +34,9 @@ if(faveNum === trueFaveNum) {
 
 // CODE HERE
 var notHakeem = "Hakeem Olajuwon";
-myName != notHakeem;
+if (myName != notHakeem) {
+  notHakeem = true;
+}
 
 // #7 Create an if statement that checks the age variable below.
 // If age is greater than 16, then set canDrive to true otherwise set canDrive to false.
@@ -54,7 +56,7 @@ if (age >= 16) {
 
 var colorResponse;
 
-function color(param){
+function responseCreator(param){
   if(param=="green"){
     colorResponse = "Green is okay";
   } else if(param == "red"){
@@ -62,22 +64,21 @@ function color(param){
   } else colorResponse = "What is your favorite color?"
   return colorResponse;
 }
-color("green");  
+responseCreator();  
 // #9 Create a function called 'sum' that takes in one parameter and 
 //returns the sum of that parameter added it itself.
 
-function sum() {
-  var number=4;
-  number+=1;
+function sum(plus1){
+  return plus1+=plus1;
 };
-sum();
+sum(1);
 
 // #10 Create a function called 'greeter' that takes in two parameters, 
 //name and number. Have 'greeter' return a string that says something like this
 // 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 function greeter(name, number){
-console.log("Hi! I am " + name + " and I am " + number + " years old")
-  return greeter;
+
+  return "Hi! I am " + name + " and I am " + number + " years old";
 };
-greeter("Tanner", 27);
+greeter("Brian", 28);
