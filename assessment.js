@@ -31,7 +31,7 @@ trueFaveNum == faveNum;
 
 // CODE HERE
 var notHakeem = "Hakeem Olajuwon";
-myName == notHakeem;
+myName != notHakeem;
 
 // #7 Create an if statement that checks the age variable below.
 // If age is greater than 16, then set canDrive to true otherwise set canDrive to false.
