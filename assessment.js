@@ -22,7 +22,7 @@ var me = ("My name is " + myName + " and my favorite number is " + faveNum);
 
 // CODE HERE
 var trueFaveNum = 27;
-trueFaveNum == faveNum;
+trueFaveNum !== faveNum;
 
 
 // #6 Create a new variable called notHakeem. Using the previously
@@ -59,7 +59,7 @@ function color(param){
   } else colorResponse = "What is your favorite color?"
   return colorResponse;
 }
-color("green");
+color("green");  
 // #9 Create a function called 'sum' that takes in one parameter and 
 //returns the sum of that parameter added it itself.
 
