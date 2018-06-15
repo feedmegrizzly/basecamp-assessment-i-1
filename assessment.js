@@ -21,8 +21,11 @@ var me = ("My name is " + myName + " and my favorite number is " + faveNum);
 // HINT: Use a comparison operator
 
 // CODE HERE
-var trueFaveNum = 27;
-trueFaveNum == faveNum;
+
+var trueFaveNum;
+if(faveNum === trueFaveNum) {
+  trueFaveNum = true;
+}
 
 
 // #6 Create a new variable called notHakeem. Using the previously
