@@ -13,7 +13,7 @@ var lovesCode = true;
 //variable called 'me' that uses the myName and faveNum
 // varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
-var me = ("My name is " + myName + " and my favorite number is " + favNum);
+var me = ("My name is " + myName + " and my favorite number is " + faveNum);
 
 // #5 Using the previously created faveNum variable, 
 //create a new variable called 'trueFaveNum'. *trueFaveNum*
@@ -22,7 +22,7 @@ var me = ("My name is " + myName + " and my favorite number is " + favNum);
 
 // CODE HERE
 var trueFaveNum = 27;
-trueFaveNum === faveNum;
+trueFaveNum == faveNum;
 
 
 // #6 Create a new variable called notHakeem. Using the previously
